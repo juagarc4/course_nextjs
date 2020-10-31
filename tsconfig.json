@@ -2,10 +2,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@assets/*": ["assets/*"],
-      "@components/*": ["components/*"],
+      "@database": ["database/db.ts"],
       "@cors": ["cors-middleware.ts"],
-      "@database": ["database/db.ts"]
+      "@components/*": ["components/*"],
+      "@store/*": ["store/*"]
     },
     "target": "es6",
     "lib": ["dom", "dom.iterable", "esnext"],

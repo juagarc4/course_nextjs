@@ -1,17 +1,16 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
-// This file will used for all pages
 class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
-          {/* favicon */}
-          {/* webfont */}
-          {/* stylesheets */}
-          {/* scripts/js */}
+          {/** FavIcon */}
+          {/** WebFont */}
+          {/** stylesheets */}
+          {/** scripts */}
         </Head>
-        <body>
+        <body className="my-body-class">
           <Main />
           <NextScript />
         </body>
