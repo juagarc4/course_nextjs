@@ -1,7 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 import DB from '@database'
-import { useRouter } from 'next/router'
-import data from '../../../database/data'
 
 const allAvos = async (req: NextApiRequest, res: NextApiResponse) => {
   const db = new DB()
